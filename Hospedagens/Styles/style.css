@@ -1,5 +1,135 @@
-.Title{
-
-    font-size: 15px;
-    background-color:blue;
+    @font-face {
+        font-family: "Lato";
+        src: url("/assets/fonts/Lato/Lato-Regular.ttf");
+    }
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
 }
+.HeaderContainer{
+    width: 100%;
+    font-size: 15px;
+    background: linear-gradient(to left, #002777, #1E52B4); 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 20x;
+    padding-top: 29px;
+   
+}
+.Title{
+    margin-left: 72px; 
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato';
+}
+
+.contacts{
+    display: flex;
+    width:400px;
+    align-items: center;
+    margin-right: 72px;
+    justify-content: space-between;
+
+    
+}
+
+.PutButton{
+    padding:9px 37px 9px 37px;
+    border-radius: 8px;
+    color: white;
+    border:1px solid white;
+    background-color: transparent;
+    font-family: 'Lato';
+}
+
+#TitleArticle{
+    font-family: 'Lato';
+    font-size: 28px;
+    color: #ffff;
+ 
+}
+
+main{
+
+   background-color: white;
+   
+}
+article{
+   
+    width:418px;
+    margin-left: 72px; 
+}
+
+#TextArticle{
+    font-family: 'Lato';
+    text-align: start;
+    font-size: 28px;
+    color:#FAFAFA;
+}
+
+.ArticlesDiv{
+    padding-top: 91px;
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    background: linear-gradient(to left, #002777, #1E52B4); 
+}
+
+#Mapa-Brasil{
+    width: 379px;
+    height:334px;
+    /* margin-top: 33px; */
+}
+
+.Find-hotel{
+    border: 1px solid black;
+    position: relative;
+    top: -20px;
+    padding-top: 31px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    width:942px;
+    background-color: #ffff;
+    align-self: center;
+   left:20%;
+}
+.Find-hotel-option{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    /* padding-left: 30px; */
+    border-width:0px 0px 0px 2px;
+   
+}
+
+.Text-find{
+    font-size: 16px;
+    color: #5F5C6B;
+    font-family: 'Lato';
+}
+
+#Button-find-hotel{
+    Width:160px;
+    Height:45px;
+    border-radius: 8px;
+    background-color: #009C3B;
+}
+
+#Text-button{
+    font-size: 15px;
+    color: #ffff;
+    font-family: 'Lato';
+}
+ 
+
