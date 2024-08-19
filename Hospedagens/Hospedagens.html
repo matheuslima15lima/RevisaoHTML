@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-   <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="stylesheet" href="./Styles/style.css">
 </head>
 
-<body> 
+<body>
     <Header>
         <div class="HeaderContainer">
 
-
+                <img id = "MenuHamburguer"src="./assets/icons/MenuHamburguer.svg" alt="Menu Hamburguer">
 
             <img class="Title" src="assets/logo-branca.png" alt="Minha Figura">
 
@@ -23,7 +23,7 @@
                 <a href="">Hotéis</a>
                 <a href="">Contato</a>
                 <a href="">Entrar</a>
-                <button class="PutButton">Cadastrar-se</button>
+                <button type="button" class="PutButton">Cadastrar-se</button>
             </nav>
 
 
@@ -37,10 +37,10 @@
         <div class="ArticlesDiv">
 
 
-            <article>
-                <h1 id="TitleArticle">As melhores hospedagens do Brasil</h1>
+            <article class="HideOnMobile">
+                <h1 class="TitleArticle">As melhores hospedagens do Brasil</h1>
 
-                <p id="TextArticle">mais de 500 mil reservas esperando por você! Basta procurar pelo local ideal e
+                <p class="TextArticle">mais de 500 mil reservas esperando por você! Basta procurar pelo local ideal e
                     realizar a viagem dos seus sonhos.
                 <p>
             </article>
@@ -72,20 +72,118 @@
 
             <div class="Divisory">
             </div>
-            <button id="Button-find-hotel">
+            <button type="button" id="Button-find-hotel">
                 <h1 id="Text-button">Procurar hotel</h1>
             </button>
-                
-                
-           
+
+
+
         </div>
 
-        <section>
-            <article>
-                <img src="./assets/images/angra.jpg">
+        <section class="Locals"  class="layout-grid">
+
+            <article class="ArticleDestiny">
+                <img class="Destiny" src="./assets/images/angra.jpg">
+
+                <h1 class="Title__Destiny">Angra dos Reis</h1>
+
+                <p class="Text__Destiny">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aliquam, nulla cumque sed ipsam odit
+                    facilis voluptas corporis, rem similique quae repudiandae fugit modi quidem quibusdam. Perspiciatis
+                    saepe quasi nulla?
+                </p>
+            </article>
+
+
+            <article class="ArticleDestiny">
+                <img class="Destiny" src="./assets/images/angra.jpg">
+
+                <h1 class="Title__Destiny">Angra dos Reis</h1>
+
+                <p class="Text__Destiny">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aliquam, nulla cumque sed ipsam odit
+                    facilis voluptas corporis, rem similique quae repudiandae fugit modi quidem quibusdam. Perspiciatis
+                    saepe quasi nulla?
+                </p>
+            </article>
+
+            <article class="ArticleDestiny">
+                <img class="Destiny" src="./assets/images/angra.jpg">
+
+                <h1 class="Title__Destiny">Angra dos Reis</h1>
+
+                <p class="Text__Destiny">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aliquam, nulla cumque sed ipsam odit
+                    facilis voluptas corporis, rem similique quae repudiandae fugit modi quidem quibusdam. Perspiciatis
+                    saepe quasi nulla?
+                </p>
+            </article>
+
+            <article class="ArticleDestiny">
+                <img class="Destiny" src="./assets/images/angra.jpg">
+
+                <h1 class="Title__Destiny">Angra dos Reis</h1>
+
+                <p class="Text__Destiny">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aliquam, nulla cumque sed ipsam odit
+                    facilis voluptas corporis, rem similique quae repudiandae fugit modi quidem quibusdam. Perspiciatis
+                    saepe quasi nulla?
+                </p>
+            </article>
+            
+            <article class="ArticleDestiny">
+                <img class="Destiny" src="./assets/images/angra.jpg">
+
+                <h1 class="Title__Destiny">Angra dos Reis</h1>
+
+                <p class="Text__Destiny">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aliquam, nulla cumque sed ipsam odit
+                    facilis voluptas corporis, rem similique quae repudiandae fugit modi quidem quibusdam. Perspiciatis
+                    saepe quasi nulla?
+                </p>
+            </article>
+
+            <article class="ArticleDestiny">
+                <img class="Destiny" src="./assets/images/angra.jpg">
+
+                <h1 class="Title__Destiny">Angra dos Reis</h1>
+
+                <p class="Text__Destiny">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aliquam, nulla cumque sed ipsam odit
+                    facilis voluptas corporis, rem similique quae repudiandae fugit modi quidem quibusdam. Perspiciatis
+                    saepe quasi nulla?
+                </p>
             </article>
         </section>
+
+        <section class="Banner">
+
+
+            <article>
+                <h1 class="Title__Banner">Venha conferir os melhores hotéis com as melhores promoções do país</h1>
+
+                <p class="Text_Banner">mais de 500 mil reservas esperando por você! Basta procurar pelo local ideal e
+                    realizar a viagem dos seus sonhos.
+                <p>
+            </article>
+
+            <article>
+                <img id="Mapa-Brasil" class="Brasil" src="./assets/travel.png" alt="Minha Figura">
+            </article>
+
+        </section>
     </main>
+
+    <footer>
+        <section class="FooterContact">
+                <h1 class="Title__Footer">Fale com um de nossos acessores</h1>
+                <h2 class="Email__Footer">hospedagens@contato.com</h2>
+                <h2 class="Email__Footer">(11)0800-707-007</h2>
+        </section>
+        <Section class="FooterLogo">
+            <img class= "Logo__Footer" src="./assets/logo-preta.png">
+        </Section>
+    </footer>
 </body>
 
 </html>

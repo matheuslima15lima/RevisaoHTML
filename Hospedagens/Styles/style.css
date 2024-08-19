@@ -2,6 +2,11 @@
         font-family: "Lato";
         src: url("../assets/fonts/Lato/Lato-Regular.ttf");
     }
+
+    @font-face{
+        font-family: "Inter";
+        src: url("../assets/fonts/Lato/Inter/Inter-VariableFont_opsz\,wght.ttf")
+    }
 * {
     margin:0;
     padding: 0;
@@ -47,16 +52,26 @@ header nav a{
     font-family: 'Lato';
 }
 
-#TitleArticle{
+.TitleArticle{
     font-family: 'Lato';
     font-size: 28px;
     color: #ffff;
+ 
+}
+.Title_Banner{
+    font-family: 'Lato';
+    font-size: 28px;
+    color: #2E2636;
  
 }
 
 main{
 
    background-color: white;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
    
 }
 article{
@@ -65,11 +80,17 @@ article{
     margin-left: 72px; 
 }
 
-#TextArticle{
+.TextArticle{
     font-family: 'Lato';
     text-align: start;
     font-size: 28px;
     color:#FAFAFA;
+}
+.Title__Banner{
+    font-family: 'Lato';
+    text-align: start;
+    font-size: 28px;
+    color:#2E2636;
 }
 
 .ArticlesDiv{
@@ -79,10 +100,22 @@ article{
     flex-direction: row;
 
     justify-content: space-around;
-
+    width: 100%;
     align-items: center;
 
     background: linear-gradient(to left, #002777, #1E52B4); 
+}
+.Banner{
+    padding-top: 91px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    background:none; 
 }
 
 #Mapa-Brasil{
@@ -99,10 +132,10 @@ article{
     padding-bottom: 30px;*/
     display: flex;
     justify-content: space-around;
-    width:942px;
+    width:80%;
     background-color: #ffff;
     align-self: center;
-   left:20%;
+   /* left:10%; */
    align-items: center;
    height: 80px;
    border-radius: 8px;
@@ -151,4 +184,108 @@ article{
 .Divisory{
     height: 50px;
     border: 1px dashed #4E4B59;
+}
+
+.Destiny{
+    width: 260px;
+    height: 173px;
+}
+
+.Locals{
+    margin-top: 30px;
+   display: flex;
+   align-items: flex-start;
+   width: 80%;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+   row-gap: 24px;
+   /* border: 2px solid black; */
+}
+
+.Title__Destiny{
+    font-family: "Lato";
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.ArticleDestiny{
+    display: flex;
+    /* align-items: flex-start; */
+    flex-direction: column;
+    width: 260px;
+}
+
+.Text__Destiny {
+    font-family:"Lato";
+    font-size: 12px;
+}
+
+.layout-grid{
+    padding:0 20%;
+    margin-left: 72px;
+    align-items: center;
+    justify-content: center;
+}
+
+.FooterContact{
+    height:163px;
+    width: 100%;
+    background: linear-gradient(to left, #009C3B, #009538); 
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.FooterLogo{
+    height:50px;
+    width: 100%;
+    background: #FFDF00;
+    display:flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.Title__Footer{
+    font-family: 'Inter';
+    font-size: 24px;
+    color:#FAFAFA
+}
+
+.Email__Footer{
+    color:#FAFAFA;
+    font-family: 'Lato';
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Logo__Footer{
+    height:20px;
+    width:130px;
+}
+
+#MenuHamburguer{
+    display: none;
+}
+@media screen and (max-width: 768px){
+    #MenuHamburguer{
+        display: flex;
+        height: 50px;
+        width: 50px;
+
+        margin-left: 20px;
+    }
+    .Title{
+        display: none !important;
+    }
+
+    .contacts{
+        display: none;
+    }
+
+    .HideOnMobile{
+        display: none;
+    }
 }
